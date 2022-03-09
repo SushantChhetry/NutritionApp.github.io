@@ -38,7 +38,7 @@ function App() {
           >
             <Grid
               item
-              xs={3}
+              xs={1}
               md={3}
               sx={{
                 backgroundImage: `url(${backgroundImage})`,
@@ -46,7 +46,7 @@ function App() {
                 height: "100vh",
               }}
             ></Grid>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={10} md={6}>
               <Grid container spacing={3}>
                 <Grid item xs={12} md={12}>
                   <Typography variant="h2" sx={{ textAlign: "center" }}>
@@ -76,7 +76,6 @@ function App() {
                 </Grid>
                 <Grid item xs={12} md={12}>
                   <Box
-                    m={1}
                     display="flex"
                     alignItems="center"
                     flexDirection="column"
@@ -88,7 +87,7 @@ function App() {
             </Grid>
             <Grid
               item
-              xs={3}
+              xs={1}
               md={3}
               sx={{
                 backgroundImage: `url(${backgroundImage})`,

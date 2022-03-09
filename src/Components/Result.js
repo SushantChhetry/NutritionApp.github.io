@@ -24,7 +24,7 @@ const Result = (props) => {
   let showAdd = false;
   return (
     <>
-      <Card sx={{ minWidth: 575 }}>
+      <Card sx={{ minWidth: "75%" }}>
         <CardContent>
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             Nutrition facts:
